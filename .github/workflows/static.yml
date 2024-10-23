@@ -31,19 +31,6 @@ jobs:
           ref: gh-pages
           fetch-depth: 0
 
-      - name: Copy build files
-        run: |
-          rm -rf ./*
-          cp -r ../dist/* .
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m 'Deploy from GitHub Actions'
-          git push origin gh-pages
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -51,7 +38,3 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
