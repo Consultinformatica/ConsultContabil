@@ -3,7 +3,7 @@ name: Deploy Vue.js to GitHub Pages
 on:
   push:
     branches:
-      - main # Ajuste o nome do branch conforme necessário
+      - main
   release:
     types: [created]
 
@@ -23,9 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test # Remova esta linha se não tiver testes
-
       - name: Build project
         run: npm run build
 
@@ -33,7 +30,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./dist # Ajuste para o diretório correto de build
+          publish_dir: ./dist
 
   publish-gpr:
     needs: build
