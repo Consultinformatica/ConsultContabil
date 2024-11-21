@@ -38,7 +38,7 @@
 				</div>
 			</section>
 
-			<section id="sobre" class="px-[25%] py-12 md:py-24 lg:py-32 bg-orange-50 border-y border-orange-200">
+			<section id="sobre" class="w-full sm:px-[15%] sml2:px-[15%] sml:px-0 py-12 md:py-24 lg:py-32 bg-orange-50 border-y border-orange-200">
 				<div class="mx-auto px-4 md:px-6">
 					<h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-left">
 						Sobre Nós
@@ -61,24 +61,24 @@
 				</div>
 			</section>
 
-			<section id="servicos" class="px-[25%] py-12 md:py-24 lg:py-32">
+			<section id="servicos" class="sm:px-[15%] sml2:px-[15%] sml:px-0 py-12 md:py-24 lg:py-32">
 				<div class="mx-auto px-4 md:px-6">
 					<h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
 						Nossos Serviços
 					</h2>
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 						<div class="bg-orange-100 p-6 rounded-lg">
-							<h3 class="text-xl font-semibold mb-4">Serviços Contábeis</h3>
-							<p>
-								Oferecemos uma gama completa de serviços contábeis para manter
-								sua empresa em conformidade e otimizar suas operações financeiras.
-							</p>
-						</div>
-						<div class="bg-orange-100 p-6 rounded-lg">
 							<h3 class="text-xl font-semibold mb-4">Planejamento Tributário</h3>
 							<p>
 								Desenvolvemos estratégias personalizadas para minimizar sua carga
 								tributária e maximizar seus resultados financeiros.
+							</p>
+						</div>
+						<div class="bg-orange-100 p-6 rounded-lg">
+							<h3 class="text-xl font-semibold mb-4">Empresas do simples nacional</h3>
+							<p>
+								Oferecemos suporte especializado para empresa que optam pelo
+								regime de Simples nacional, garantindo conformidade e eficiência.
 							</p>
 						</div>
 						<div class="bg-orange-100 p-6 rounded-lg">
@@ -99,8 +99,8 @@
 				</div>
 			</section>
 
-			<section id="precos" class="px-[25%] py-12 md:py-24 lg:py-32">
-				<div class="mx-auto px-4 md:px-6">
+			<section id="precos" class="w-full px-[25%] sm:px-[15%] sml2:px-[15%] sml:px-0 py-12 md:py-24 lg:py-32">
+				<div class="mx-auto px-4 sml:px-5 md:px-6">
 					<h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
 						Nossos Preços
 					</h2>
@@ -124,14 +124,14 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td class="px-4 py-2">Certificado Digital A1</td>
+									<td class="px-4 py-2">Certificado Digital PF A1</td>
 									<td class="px-4 py-2">Validade de 1 ano</td>
-									<td class="px-4 py-2">R$ 199</td>
+									<td class="px-4 py-2">R$ 145,00</td>
 								</tr>
 								<tr>
-									<td class="px-4 py-2">Certificado Digital A3</td>
-									<td class="px-4 py-2">Validade de 3 anos</td>
-									<td class="px-4 py-2">R$ 299</td>
+									<td class="px-4 py-2">Certificado Digital PJ A1</td>
+									<td class="px-4 py-2">Validade de 1 anos</td>
+									<td class="px-4 py-2">R$ 210,00</td>
 								</tr>
 								<tr>
 									<td class="px-4 py-2">Contabilidade Personalizada</td>
@@ -150,7 +150,7 @@
 				</div>
 			</section>
 
-			<section id="contato" class="px-[25%] py-6 md:py-24 lg:py-20 bg-orange-50 border-y border-orange-200">
+			<section id="contato" class="w-full px-[25%] sm:px-[15%] sml2:px-[15%] sml:px-0 py-6 md:py-24 lg:py-20 bg-orange-50 border-y border-orange-200">
 				<div class="mx-auto px-4 md:px-6">
 					<h2 class="px-[10%] lg:px-[10%] text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
 						Entre em Contato
@@ -169,17 +169,12 @@
 							</a>
 						</div>
 						<div class="flex space-x-4">
-							<a href="#" target="_blank" rel="noopener noreferrer">
-								<facebook class="h-6 w-6" />
+							<a href="https://api.whatsapp.com/send?phone=5588994282608&text=Olá, como posso lhe ajudar?"
+								target="_blank" rel="noopener noreferrer">
+								<message-circle class="h-6 w-6" />
 							</a>
-							<a href="#" target="_blank" rel="noopener noreferrer">
+							<a href="https://www.instagram.com/consultinformatica33/" target="_blank" rel="noopener noreferrer">
 								<instagram class="h-6 w-6" />
-							</a>
-							<a href="#" target="_blank" rel="noopener noreferrer">
-								<linkedin class="h-6 w-6" />
-							</a>
-							<a href="https://x.com" target="_blank" rel="noopener noreferrer">
-								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve"><path d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"/></svg>
 							</a>
 							
 						</div>
@@ -193,14 +188,6 @@
 					<p class="text-sm text-muted-foreground">
 						© 2024 Consult Contábil. Todos os direitos reservados.
 					</p>
-					<nav class="flex gap-4">
-						<router-link to="#" class="text-sm font-medium text-orange-600 hover:text-orange-700">
-							Termos de Serviço
-						</router-link>
-						<router-link to="#" class="text-sm font-medium text-orange-600 hover:text-orange-700">
-							Política de Privacidade
-						</router-link>
-					</nav>
 				</div>
 			</div>
 		</footer>
@@ -212,7 +199,6 @@
 	</div>
 </template>
 <script>
-import { Divide, LucideSeparatorVertical, SeparatorVertical } from 'lucide-vue-next';
 
 export default {
 	name: "LandingPage",
