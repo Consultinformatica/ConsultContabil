@@ -1,14 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    './index.html',
-    './src/**/*.{vue,js,ts,jsx,tsx}',
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      screens: {
-        'sml': {'min': '300px', 'max': '500px'},
-        'sml2': {'min': '501px', 'max': '700px'},
+      colors: {
+        primary: '#F7A707',
       }
     },
   },
