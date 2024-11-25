@@ -3,13 +3,13 @@
     <div class="carousel-inner" :style="carouselStyle">
       <div class="carousel-item" v-for="(image, index) in images" :key="index"
         :class="{ active: index === currentIndex }">
-        <img :src="image" alt="Carousel Image" />
+        <img :src="getImageSrc(image)" alt="Carousel Image" />
       </div>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
     images: {
@@ -43,9 +43,14 @@ export default {
         this.next();
       }, 5000);
     },
+    getImageSrc(image: string) {
+      return new URL(`/src/assets/images/${image}`, import.meta.url).href;
+    },
   },
   mounted() {
     this.autoSlide();
+
+    console.log(this.getImageSrc( this.images[0] as string ) );
   },
 };
 </script>

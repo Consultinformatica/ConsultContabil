@@ -5,7 +5,7 @@
 
     <div class="relative w-screen h-[400px] bg-black">
       <ImageCarousel
-        :images="['/src/assets/images/image1.webp', '/src/assets/images/image2.webp', '/src/assets/images/image3.webp']" />
+        :images="['image1.webp', 'image2.webp', 'image3.webp']" />
       <div class="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70"></div>
       <div class="absolute inset-0 flex items-center justify-center text-white">
         <div class="text-center">
