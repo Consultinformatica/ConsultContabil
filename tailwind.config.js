@@ -8,6 +8,12 @@ export default {
     extend: {
       colors: {
         primary: '#F7A707',
+      },
+      screens: {
+        sml: {
+          min: '320px',
+          max: '400px',
+        },
       }
     },
   },

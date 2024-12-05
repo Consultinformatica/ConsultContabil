@@ -11,15 +11,17 @@
 
 <script lang="ts">
 export default {
-  props: {
-    images: {
-      type: Array,
-      required: true,
-    },
-  },
+  name: 'ImageCarousel',
   data() {
     return {
       currentIndex: 0,
+      images: [
+        'image1.webp',
+        'image2.webp',
+        'image3.webp',
+        'image4.webp',
+        'image5.webp'
+      ]
     };
   },
   computed: {
@@ -43,14 +45,12 @@ export default {
         this.next();
       }, 5000);
     },
-    getImageSrc(image: string) {
+    getImageSrc(image: string): string {
       return new URL(`/src/assets/images/${image}`, import.meta.url).href;
     },
   },
   mounted() {
     this.autoSlide();
-
-    console.log(this.getImageSrc( this.images[0] as string ) );
   },
 };
 </script>
@@ -61,7 +61,6 @@ export default {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  /* Ajuste conforme necessário */
 }
 
 .carousel-inner {
@@ -75,8 +74,8 @@ export default {
 }
 
 .carousel-item img {
-  width: 1920px;
-  height: 500px;
+  width: 100%;
+  height: 100vh;
   object-fit: cover;
 }
 
