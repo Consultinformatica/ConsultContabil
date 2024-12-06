@@ -27,7 +27,7 @@ export default {
     data() {
         return {
             isChatOpen: false,
-            whatsappNumber: '5588999612726',
+            whatsappNumber: '5588994282608',
             whatsappMessage: 'Olá, gostaria de ajuda!?',
         };
     },

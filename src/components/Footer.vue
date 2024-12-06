@@ -32,7 +32,7 @@
 						<p class="flex">
 							<img src="/src/assets/whatsapp.png" class="filter-image h-4 mt-1  mr-3" alt="WhatsApp" />
 							<p>
-								(88)9 94282608
+								(88)9 9428-2608
 							</p>
 						</p>
 						<p class="flex">

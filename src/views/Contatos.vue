@@ -23,7 +23,7 @@
                 <ContactCard title="Endereço" 
                     :info="['R. 10 R LINDOVAL JOSE DE LIMA, 366', 'Centro São José do Rio Preto', 'Acopiara, CE, 63560000']"
                     icon="location-dot" />
-                <ContactCard title="Telefones" :info="['(88)9 9961-2726', '(88)9 2152-0679', '(88) 2152-0679']" icon="phone" />
+                <ContactCard title="Telefones" :info="['(88)9 9961-2726', '(88)9 9428-2608', '(88) 2152-0679']" icon="phone" />
                 <ContactCard title="E-mail" :info="['consultcontabil549@gmail.com']" icon="envelope" />
             </div>
         </div>
