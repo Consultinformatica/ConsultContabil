@@ -6,8 +6,8 @@
         <div v-if="isChatOpen">
             <div class="whatsapp-float cardcontainer">
                 <div class="chat-header">
-                    <h3>WhatsApp</h3>
-                    <button @click="toggleChat" class="rounded-full p-2 pt-1 pb-1 bg-gray-800 ">✖</button>
+                    <p>WhatsApp</p>
+                    <button @click="toggleChat" class="rounded-full p-3 pt-2 pb-2 bg-gray-800 font-bold">✖</button>
                 </div>
                 <div class="thought-bubble">
                     <p>Olá 👋!</p>
@@ -100,7 +100,7 @@ export default {
 .thought-bubble:after {
   content: '';
   position: absolute;
-  top: 40px;
+  top: 20px;
   right: 100%;
   border-width: 10px;
   border-style: solid;
@@ -116,7 +116,6 @@ export default {
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 280px;
-    font-family: Arial, sans-serif;
     color: white;
     z-index: 9999;
 }
@@ -139,7 +138,6 @@ export default {
     background-color: white;
     color: #25d366;
     border: none;
-    /* margin-left: 25%; */
     padding: 10px 16px;
     font-size: 16px;
     font-weight: bold;

@@ -3,7 +3,7 @@
 		<div class="container mx-auto px-4">
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 				<div>
-					<div class="text-3xl text-[#f97316] mb-6 flex space-x-4" style="font-family: Anyfreak;">
+					<div class="text-2xl text-[#f97316] mb-6 flex space-x-4 font-normal " style="font-family: Montserrat;">
 						<img src="/src/assets/logo.png" alt="Logo" class="h-8 mr-2">
 						Consult Contábil
 					</div>
@@ -29,12 +29,20 @@
 							<br />
 							Centro, Acopiara CE
 						</p>
-						<p>
-							<font-awesome-icon class="pr-3" :icon="['fas', 'phone']" />
-							(88)9 9961-2726
+						<p class="flex">
+							<img src="/src/assets/whatsapp.png" class="filter-image h-4 mt-1  mr-3" alt="WhatsApp" />
+							<p>
+								(88)9 94282608
+							</p>
 						</p>
-						<p class="underline">
-							<font-awesome-icon class="pr-3" :icon="['fas', 'envelope']" />
+						<p class="flex">
+							<font-awesome-icon class="pr-3 mt-1" :icon="['fas', 'phone']" />
+							<p>
+								(88) 2152-0679
+							</p>
+						</p>
+						<p class="underline flex">
+							<font-awesome-icon class="pr-3 mt-1" :icon="['fas', 'envelope']" />
 							<a href="mailto:consultcontabil549@gmail.com">consultcontabil549@gmail.com</a>
 						</p>
 					</div>
@@ -55,3 +63,9 @@ export default {
 	},
 };
 </script>
+
+<style scoped>
+.filter-image {
+	filter: invert()
+}
+</style>

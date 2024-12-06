@@ -1,6 +1,6 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-2">
-        <div class="flex justify-end m-16 mr-0 sml:-mr-16 sm:mr-32 sm:ml-0">
+    <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="flex justify-end m-16 mr-0 sml:-mr-16 ml-0 sm:mr-32 sm:ml-0">
             <div class="flex flex-col justify-start w-80">
                 <p class="text-3xl font-bold text-black">Bem vindo a contabilidade!</p>
                 <p class="text-xl mt-5">
@@ -11,7 +11,7 @@
                 <button class="text-xl mt-5 text-start text-orange-400 hover:text-orange-600 underline" @click="toContatos()">Saiba mais sobre ></button>
             </div>
         </div>
-        <div class="grid grid-cols-1 gap-16 lg:gap-x-20 lg:grid-cols-2 w-fit -ml-20 sm:ml-0 opacity-95">
+        <div class="grid grid-cols-2 gap-16 lg:gap-x-20  w-fit -ml-20 sm:ml-0 opacity-95">
             <div v-for="service in services" :key="service.title"
                 class="relative bg-orange-50 h-56 w-56 xl:w-80 shadow-md shadow-gray-400 p-7 rounded-2xl text-center">
                 <div

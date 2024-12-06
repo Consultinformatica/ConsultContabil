@@ -6,7 +6,7 @@
 
         <div class="flex items-center">
 
-          <div v-if="!isMobileMenuOpen" class="hidden md:flex bg-white rounded-full shadow-md items-center">
+          <div v-if="!isMobileMenuOpen" class="hidden md:flex bg-white rounded-full shadow-lg drop-shadow-2xl  items-center">
             <div class="flex items-center ml-6 px-8 py-3">
               <img src="/src/assets/logo.png" alt="Logo" class="h-10 ">
             </div>

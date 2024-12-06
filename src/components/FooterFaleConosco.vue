@@ -10,7 +10,7 @@
                 Busque o sucesso da sua empresa com a Consult Contábil
             </h1>
             <button @click="toContatos()"
-                class="mt-4 w-52 inline-block bg-white text-yellow-600 font-medium py-2 px-6 rounded-full shadow-md hover:bg-yellow-100">
+                class="text-lg mt-4 w-60 inline-block bg-white text-yellow-600 font-bold py-2 px-6 rounded-full shadow-md hover:bg-yellow-100">
                 Fale com o contador
             </button>
         </div>
